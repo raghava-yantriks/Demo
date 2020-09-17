@@ -1,0 +1,15 @@
+ls
+cd 
+git init
+git remote add origin <gitlink>
+git remote -v
+git add <file name>
+// git add .(all files in that directory)
+git commit -m "First commit"
+git push origin master
+rm -rf .git(to stop git)
+
+git push origin --force
+git remote remove origin
+git config --global user.name "raghava-yantriks"
+$ git config --global user.email raghava.muppidi@yantriks.com
